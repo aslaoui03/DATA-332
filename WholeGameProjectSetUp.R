@@ -1,0 +1,5 @@
+install.packages("readxl")
+library(tidyverse)
+library(readxl)
+df <- read_excel("Whole Game Raw Data.xlsx")
+head(df)
